@@ -3,7 +3,40 @@ DO NOT ALTER THE EXISTING HTML TO DO THIS.  WRITE ONLY CSS! */
 /*You may need to research some other selectors and properties*/
 
 /* Give the <body> element a background of #bdc3c7*/
+body{
+    background: #bdc3c7;
 
+}
+
+h1 {
+    color: #9b59b6;
+}
+h2 {
+    color: orange;
+}
+li {
+    color: #4245a1;
+}
+p {
+    background-color: purple;
+}
+
+.hello {
+    background: white;
+}
+
+#special {
+    border: 24px solid #4245a1;
+
+}
+
+div p {
+    font-size: 25px;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+}
 /* Make the <h1> element #9b59b6*/
 
 /* Make all <h2> elements orange */
