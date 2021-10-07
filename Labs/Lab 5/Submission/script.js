@@ -1,13 +1,10 @@
-function changeStuff() {
-    document.getElementByTitle("title").innerHTML = "New Heading";
-    document.getElementByID("description").innerHTML = "Reed";
-    document.getElementByID("bossy").innerHTML = "Do you think you could help me with some things?";
-    var items = document.getElementByTagName('ul');
-    items[0].fontcolor("blue");
-    items[1].backgroundcolor("cream");
-    document.GetElementByTagName('body').backgroundcolor("grey");
-    items[3].innerText.toUpperCase();
-    items[4].innerText.append("SoftwareDevII");
+document.querySelector("h1.title").innerHTML = "New Heading";
+document.querySelector("#description").innerHTML = "Reed";
+document.querySelector("#bossy").innerHTML = "Do you think you could help me with some things?";
 
-}
-
+var items = document.querySelectorAll('ul');
+    items[0].style.color = "blue";
+    items[1].style.backgroundColor = "cream";
+    document.querySelectorAll('body').style.backgroundColor = "grey";
+    items[3].innerHTML.toUpperCase();
+    items[4].innerHTML.append("SoftwareDevII");
